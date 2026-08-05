@@ -1,0 +1,79 @@
+{
+    "apps": [
+        {
+            "name": "Notepad",
+            "path": "notepad.exe",
+            "args": "",
+            "description": "Standard Windows Text Editor"
+        },
+        {
+            "name": "Calculator",
+            "path": "calc.exe",
+            "args": "",
+            "description": "Standard Windows Calculator"
+        },
+        {
+            "name": "Paint",
+            "path": "mspaint.exe",
+            "args": "",
+            "description": "Standard Windows Paint Application"
+        },
+        {
+            "name": "Task Manager",
+            "path": "taskmgr.exe",
+            "args": "",
+            "description": "Windows Task Manager"
+        },
+        {
+            "name": "Command Prompt",
+            "path": "cmd.exe",
+            "args": "",
+            "description": "Windows Command Line"
+        },
+        {
+            "name": "PowerShell",
+            "path": "powershell.exe",
+            "args": "",
+            "description": "Windows PowerShell Command Line"
+        },
+        {
+            "name": "Visual Studio Code",
+            "path": "\"C:\\Users\\Jaymi\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\"",
+            "args": "",
+            "description": "VS Code IDE"
+        }
+    ],
+    "commands": [
+        {
+            "name": "Git Status",
+            "cmd": "git status",
+            "shell": true,
+            "description": "Check current Git repository status"
+        },
+        {
+            "name": "System Info",
+            "cmd": "systeminfo",
+            "shell": true,
+            "description": "Display basic Windows operating system configuration"
+        },
+        {
+            "name": "Active Network Connections",
+            "cmd": "netstat -an | findstr LISTENING",
+            "shell": true,
+            "description": "Show all listening ports on this machine"
+        },
+        {
+            "name": "List IP Configuration",
+            "cmd": "ipconfig /all",
+            "shell": true,
+            "description": "Show all current network adapter configurations"
+        }
+    ],
+    "scripts": [],
+    "settings": {
+        "start_directory": ".",
+        "theme": "ocean",
+        "log_history": true,
+        "max_history_entries": 50
+    }
+}
