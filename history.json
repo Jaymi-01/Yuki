@@ -1,0 +1,10 @@
+[
+    {
+        "timestamp": "2026-08-05T15:36:24.581558",
+        "name": "System Info",
+        "command": "systeminfo",
+        "return_code": 0,
+        "duration_seconds": 7.38,
+        "output_preview": "twork Connection\n                                     Status:          Media disconnected\nVirtualization-based security: Status: Running\n                               Required Security Properties:\n                                     Base Virtualization Support\n                               Available Security Properties:\n                                     Base Virtualization Support\n                                     DMA Protection\n                                     SMM Security Mitigations 1.0\n                                     Mode Based Execution Control\n                               Services Configured:\n                               Services Running:\n                               App Control for Business policy: Enforced\n                               App Control for Business user mode policy: Off\n                               Security Features Enabled:\nHyper-V Requirements:          A hypervisor has been detected. Features required for Hyper-V will not be displayed.\n"
+    }
+]
